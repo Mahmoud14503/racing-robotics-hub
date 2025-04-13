@@ -1,5 +1,4 @@
 
-import { useState } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import TelemetryPanel from '@/components/TelemetryPanel';
@@ -8,11 +7,9 @@ import TrackMap from '@/components/TrackMap';
 import ControlPanel from '@/components/ControlPanel';
 
 const Index = () => {
-  const [activeTab, setActiveTab] = useState('dashboard');
-
   return (
     <div className="min-h-screen bg-racing-dark text-racing-light flex flex-col">
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header />
       
       <main className="flex-1 container mx-auto px-4 py-6 max-w-7xl">
         <HeroSection />
