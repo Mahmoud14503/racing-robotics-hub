@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Battery, Cpu, Thermometer, Droplet, Radio, GitPullRequest } from 'lucide-react';
+import { Battery, Cpu, Thermometer, Droplet, Radio, GitPullRequest, Check, AlertTriangle, X } from 'lucide-react';
 import { systemStatus } from '../utils/telemetryData';
 import { useStaggeredAnimation } from '../utils/animations';
 
