@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { MapPin, Navigation, Clock, Thermometer, Droplets } from 'lucide-react';
 import { trackData } from '../utils/telemetryData';
