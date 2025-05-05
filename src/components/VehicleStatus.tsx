@@ -69,8 +69,8 @@ const StatusIndicator: React.FC<{ status: string }> = ({ status }) => {
       break;
     case "warning":
       icon = <AlertTriangle size={12} />;
-      bgColor = "bg-yellow-500/20";
-      textColor = "text-yellow-500";
+      bgColor = "bg-racing-red/20";
+      textColor = "text-racing-red";
       break;
     case "error":
       icon = <X size={12} />;
@@ -79,8 +79,8 @@ const StatusIndicator: React.FC<{ status: string }> = ({ status }) => {
       break;
     default:
       icon = <Check size={12} />;
-      bgColor = "bg-blue-500/20";
-      textColor = "text-blue-500";
+      bgColor = "bg-racing-accent/20";
+      textColor = "text-racing-accent";
   }
   
   return (
@@ -101,11 +101,11 @@ function getStatusBorderColor(status: string): string {
     case "connected":
       return "border-green-500";
     case "warning":
-      return "border-yellow-500";
+      return "border-racing-red";
     case "error":
       return "border-red-500";
     default:
-      return "border-blue-500";
+      return "border-racing-accent";
   }
 }
 
@@ -119,11 +119,11 @@ function getStatusTextColor(status: string): string {
     case "connected":
       return "text-green-500";
     case "warning":
-      return "text-yellow-500";
+      return "text-racing-red";
     case "error":
       return "text-red-500";
     default:
-      return "text-blue-500";
+      return "text-racing-accent";
   }
 }
 

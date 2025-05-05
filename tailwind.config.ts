@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
                 racing: {
-                    red: '#FF0A47',
-                    gray: '#1A1F2C',
-                    light: '#F6F6F7',
-                    dark: '#111116',
-                    accent: '#0FA0CE',
+                    red: '#F7941E', // Changed to orange
+                    gray: '#444952', // Updated grey
+                    light: '#F0F0F1', // Slightly adjusted light color
+                    dark: '#1E1F24', // Slightly warmer dark color
+                    accent: '#F9A826', // Changed to a lighter orange
                 }
 			},
 			borderRadius: {

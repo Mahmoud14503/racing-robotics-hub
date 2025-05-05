@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 225 14% 10%;
-    --foreground: 210 40% 98%;
+    --background: 220 14% 10%;
+    --foreground: 24 5% 95%;
 
-    --card: 228 16% 14%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 16% 14%;
+    --card-foreground: 24 5% 95%;
 
-    --popover: 228 16% 14%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 16% 14%;
+    --popover-foreground: 24 5% 95%;
 
-    --primary: 346 100% 52%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 95% 50%;
+    --primary-foreground: 220 10% 98%;
 
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 10% 20%;
+    --secondary-foreground: 220 10% 98%;
 
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 220 10% 20%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 198 87% 48%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 30 100% 65%;
+    --accent-foreground: 220 10% 10%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 220 10% 98%;
 
-    --border: 217 33% 20%;
-    --input: 217 33% 20%;
-    --ring: 224 76% 48%;
+    --border: 220 10% 20%;
+    --input: 220 10% 20%;
+    --ring: 25 95% 50%;
 
     --radius: 0.5rem;
   }
@@ -46,8 +46,8 @@
     @apply bg-racing-dark text-racing-light font-sans antialiased;
     background-image: radial-gradient(
       circle at 50% 0%,
-      rgba(15, 160, 206, 0.1) 0%,
-      rgba(15, 160, 206, 0) 70%
+      rgba(247, 148, 30, 0.1) 0%,
+      rgba(247, 148, 30, 0) 70%
     );
     background-attachment: fixed;
   }
@@ -63,7 +63,7 @@
   }
   
   .text-glow {
-    text-shadow: 0 0 10px rgba(15, 160, 206, 0.5);
+    text-shadow: 0 0 10px rgba(247, 148, 30, 0.5);
   }
   
   .data-value {
@@ -82,7 +82,7 @@
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(15, 160, 206, 0.8), transparent);
+    background: linear-gradient(90deg, transparent, rgba(247, 148, 30, 0.8), transparent);
     animation: data-flow 2s linear infinite;
   }
   
